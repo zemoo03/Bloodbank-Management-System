@@ -14,7 +14,13 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: "http://localhost:5173", // or 3000
+  origin: [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "https://bloodbank-management-system.vercel.app",
+    "https://bloodbank-management-system-zemoo03.vercel.app",
+    /\.vercel\.app$/  // Allow all Vercel preview URLs
+  ],
   credentials: true,
 }));
 
