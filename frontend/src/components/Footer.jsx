@@ -38,7 +38,7 @@ const Footer = () => {
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
-          
+
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
@@ -170,6 +170,21 @@ const Footer = () => {
                 Cookie Policy
               </Link>
             </div>
+          </div>
+          {/* Developer Credit */}
+          <div className="mt-4 pt-4 border-t border-gray-800 text-center">
+            <p className="text-gray-400 text-sm">
+              Developed with ❤️ by{" "}
+              <a
+                href="https://www.linkedin.com/in/pratik-ohol-344b9b30b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-400 hover:text-red-300 font-semibold transition-colors duration-200 inline-flex items-center gap-1"
+              >
+                Pratik Ohol
+                <Linkedin className="w-4 h-4" />
+              </a>
+            </p>
           </div>
         </div>
       </div>
