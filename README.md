@@ -1,5 +1,21 @@
 # Blood Bank Management System (BBMS)
 
+> ⚠️ **COPYRIGHT NOTICE** ⚠️
+> 
+> This project is the exclusive property of **Pratik Ohol**.
+> 
+> 🚫 **REDISTRIBUTION PROHIBITED** - You are NOT allowed to:
+> - Push this code to your own GitHub/GitLab/Bitbucket repository
+> - Claim this project as your own
+> - Use this code in any commercial project
+> - Remove or modify copyright notices
+> 
+> ✅ **ALLOWED**: View, learn, and run locally for educational purposes only.
+> 
+> ⚖️ **Unauthorized redistribution will result in legal action.**
+
+---
+
 ## Overview
 
 The **Blood Bank Management System (BBMS)** is a web-based platform designed to streamline the management of blood donations, hospital requests, and inventory tracking. By replacing manual processes with a structured digital workflow, BBMS enables hospitals and blood banks to access real-time inventory, maintain donor records, and process blood requests efficiently.
